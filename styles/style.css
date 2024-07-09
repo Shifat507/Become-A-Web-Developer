@@ -8,6 +8,23 @@
 }
 
 /* Utilities */
+.title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+}
 
 /* Nav and Banner Section Styles */
 
@@ -52,6 +69,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 70px;
 }
 
 .banner-content {
@@ -108,7 +126,6 @@
     padding: 73px 90px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    border: 2px solid blueviolet;
 }
 
 .short-description {
@@ -126,17 +143,12 @@
 .short-description>p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 40px;
 }
 
-/* .tasks {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-} */
+
 
 .task-cat-A {
     padding: 40px;
@@ -176,17 +188,42 @@
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
-.learn-more-btn:hover{
+
+.learn-more-btn:hover {
     cursor: pointer;
 }
 
-.task-cat-B{
+.task-cat-B {
     padding: 40px;
     border-radius: 16px;
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
     margin-bottom: 20px;
+}
+
+/* my-inspiration section style */
+.my-inspiration-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.video-container {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.video-content{
+    padding: 10px 20px;
+}
+
+.video-content>iframe {
+    width: 900px;
+    height: 400px;
+    border-radius: 16px;  
 }
