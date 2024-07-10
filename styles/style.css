@@ -267,7 +267,8 @@
     font-size: 12px;
     font-weight: 700;
 }
-.skills{
+
+.skills {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -286,6 +287,7 @@
     align-items: center;
     padding: 0px 30px;
 }
+
 .skill-2 {
     position: static;
     width: 320px;
@@ -298,6 +300,7 @@
     align-items: center;
     padding: 0px 30px;
 }
+
 .skill-3 {
     position: static;
     width: 320px;
@@ -309,4 +312,40 @@
     justify-content: center;
     align-items: center;
     padding: 0px 30px;
+}
+
+/* My next target section style */
+
+.next-target-container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.next-target-text {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.next-target-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.next-skill {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+}
+
+.next-skill>img {
+    width: 84px;
+    height: 97px;
 }
