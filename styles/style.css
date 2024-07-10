@@ -224,7 +224,7 @@
 }
 
 .video-content {
-    padding: 10px 20px;
+    padding: 20px;
 }
 
 .video-content>iframe {
@@ -272,7 +272,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .skill-1 {
@@ -352,7 +352,6 @@
 
 /* Support Section Style */
 .support-container {
-    border: 2px solid blueviolet;
     width: 1020px;
     height: 280px;
     margin: 100px auto;
@@ -412,4 +411,28 @@
     padding: 12px 18px;
     border-radius: 8px;
     border: none;
+}
+
+/* Footer Section Style */
+.footer-container {
+    margin: 0 auto;
+    width: 1300px;
+    border-radius: 12px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-content{
+    padding: 20px 140px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footer-text {
+    
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
